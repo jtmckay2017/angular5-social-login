@@ -19,10 +19,10 @@ export class GoogleLoginProvider extends BaseLoginProvider {
   initialize(): Promise<SocialUser> {
     return new Promise((resolve, reject) => {
       this.loadScript(this.loginProviderObj, () => {
-          gapi.load('auth2', () => {
+          gapi.load('auth2:client', () => {
             this.auth2 = gapi.auth2.init({
               client_id: this.clientId,
-              scope: 'email'
+              scope: 'email https://www.googleapis.com/auth/calendar.events'
             });
 
             this.auth2.then(() => {
