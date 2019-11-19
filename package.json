@@ -1,6 +1,6 @@
 {
   "name": "agileonboard-angular5-social-login",
-  "version": "1.0.9",
+  "version": "1.0.10",
   "description": "Agular 5 : Social Login (Facebook and Google) forked to add calendar api support.",
   "scripts": {
     "build": "gulp build",
@@ -19,8 +19,7 @@
     "name": "Sabyasachi Biswal",
     "email": "sabyasachi.biswal4@gmail.com"
   },
-  "keywords": [
-  ],
+  "keywords": [],
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/jtmckay2017/angular5-social-login/issues"
