@@ -35,10 +35,10 @@
   "bugs": {
     "url": "https://github.com/jtmckay2017/angular5-social-login/issues"
   },
-  "main": "angular5-social-login.umd.js",
-  "module": "angular5-social-login.js",
-  "jsnext:main": "angular5-social-login.js",
-  "typings": "angular5-social-login.d.ts",
+  "main": "agileonboard-angular5-social-login.umd.js",
+  "module": "agileonboard-angular5-social-login.js",
+  "jsnext:main": "agileonboard-angular5-social-login.js",
+  "typings": "agileonboard-angular5-social-login.d.ts",
   "peerDependencies": {
     "@angular/common": "^5.0.0",
     "@angular/core": "^5.0.0",
